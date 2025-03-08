@@ -18,4 +18,8 @@ screen.listen()
 screen.onkey(paddle_right.go_up, "Up")
 screen.onkey(paddle_right.go_down, "Down")
 
+game_is_on = True
+while game_is_on:
+    screen.update()
+
 screen.exitonclick()
